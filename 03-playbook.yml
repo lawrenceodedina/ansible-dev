@@ -1,0 +1,23 @@
+---
+- hosts: all
+  become: yes
+  ignore_errors: true
+  vars:
+    user_name: JOHN
+  tasks:
+    - name: Uptime
+      command: uptime
+      register: uptime_output
+
+    - name: Debug
+      debug:
+        msg: "Hello from my playbook"
+
+    - name: debug
+      debug:
+        var: uptime_output.stdout
+      
+    - name: Print my vars
+      debug:
+        var: user_name
+  
