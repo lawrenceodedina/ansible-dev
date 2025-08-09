@@ -1,0 +1,8 @@
+plugin: aws_ec2
+regions:
+  - us-east-1
+groups:
+#Dev servers group
+  dev: "'dev' in tags.Environment"
+# QA servers Group
+  qa: "'qa' in tags.Environment"

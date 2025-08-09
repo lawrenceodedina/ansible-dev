@@ -1,0 +1,12 @@
+---
+- name: Launch EC2 Instance
+  hosts: localhost
+
+  tasks:
+    - name: Create EC2 Instance
+      amazon.aws.ec2_instance:
+        name: Server-from-ansible
+        instance_type: t2.micro
+        image_id: ami-02f624c08a83ca16f
+        region: us-east-1
+        state: absent

@@ -1,0 +1,894 @@
+2025-08-07 15:59:06,593 p=2430 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 15:59:06,876 p=2430 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 16:36:40,596 p=3066 u=ubuntu n=ansible | playbook: downloadpackage.yaml
+2025-08-07 16:37:23,792 p=3153 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:37:23,799 p=3153 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:37:25,369 p=3153 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:37:25,625 p=3153 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:37:25,642 p=3153 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:37:26,224 p=3153 u=ubuntu n=ansible | changed: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:37:26,320 p=3153 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:37:26,345 p=3153 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:37:26,345 p=3153 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:37:26,345 p=3153 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:37:30,867 p=3242 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:37:30,873 p=3242 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:37:32,138 p=3242 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:37:32,157 p=3242 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:37:32,174 p=3242 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:37:33,704 p=3242 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:37:33,713 p=3242 u=ubuntu n=ansible | changed: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:37:33,739 p=3242 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:37:33,739 p=3242 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:37:33,739 p=3242 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:41:51,307 p=3507 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:41:51,314 p=3507 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:41:52,757 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:41:52,908 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:41:52,926 p=3507 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:41:54,780 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:41:55,284 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:41:55,288 p=3507 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:41:55,929 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:41:55,970 p=3507 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:41:55,994 p=3507 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:41:55,994 p=3507 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:41:55,994 p=3507 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:43:51,132 p=3693 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:43:51,139 p=3693 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:43:52,573 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:43:52,695 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:43:52,713 p=3693 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:43:54,439 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:43:54,491 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:43:54,495 p=3693 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:43:55,116 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:43:55,170 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:43:55,175 p=3693 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:43:55,193 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info": {
+        "changed": false,
+        "failed": false,
+        "stat": {
+            "atime": 1754584652.7380621,
+            "attr_flags": "",
+            "attributes": [],
+            "block_size": 4096,
+            "blocks": 298088,
+            "charset": "binary",
+            "checksum": "43c0c30592fb9453a8289f0c6c0a5ec10162ee65",
+            "ctime": 1754584653.366069,
+            "dev": 66305,
+            "device_type": 0,
+            "executable": false,
+            "exists": true,
+            "gid": 0,
+            "gr_name": "root",
+            "inode": 12590070,
+            "isblk": false,
+            "ischr": false,
+            "isdir": false,
+            "isfifo": false,
+            "isgid": false,
+            "islnk": false,
+            "isreg": true,
+            "issock": false,
+            "isuid": false,
+            "mimetype": "application/x-xz",
+            "mode": "0644",
+            "mtime": 1754584653.166067,
+            "nlink": 1,
+            "path": "/tmp/linux-6.16.tar.xz",
+            "pw_name": "root",
+            "readable": true,
+            "rgrp": true,
+            "roth": true,
+            "rusr": true,
+            "size": 152620004,
+            "uid": 0,
+            "version": "1400324669",
+            "wgrp": false,
+            "woth": false,
+            "writeable": true,
+            "wusr": true,
+            "xgrp": false,
+            "xoth": false,
+            "xusr": false
+        }
+    }
+}
+2025-08-07 16:43:55,204 p=3693 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info": {
+        "changed": false,
+        "failed": false,
+        "stat": {
+            "atime": 1754584653.3795853,
+            "attr_flags": "e",
+            "attributes": [
+                "extents"
+            ],
+            "block_size": 4096,
+            "blocks": 298096,
+            "charset": "binary",
+            "checksum": "43c0c30592fb9453a8289f0c6c0a5ec10162ee65",
+            "ctime": 1754584653.3785853,
+            "dev": 66305,
+            "device_type": 0,
+            "executable": false,
+            "exists": true,
+            "gid": 0,
+            "gr_name": "root",
+            "inode": 258446,
+            "isblk": false,
+            "ischr": false,
+            "isdir": false,
+            "isfifo": false,
+            "isgid": false,
+            "islnk": false,
+            "isreg": true,
+            "issock": false,
+            "isuid": false,
+            "mimetype": "application/x-xz",
+            "mode": "0644",
+            "mtime": 1754584653.1755848,
+            "nlink": 1,
+            "path": "/tmp/linux-6.16.tar.xz",
+            "pw_name": "root",
+            "readable": true,
+            "rgrp": true,
+            "roth": true,
+            "rusr": true,
+            "size": 152620004,
+            "uid": 0,
+            "version": "1675588797",
+            "wgrp": false,
+            "woth": false,
+            "writeable": true,
+            "wusr": true,
+            "xgrp": false,
+            "xoth": false,
+            "xusr": false
+        }
+    }
+}
+2025-08-07 16:43:55,229 p=3693 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:43:55,229 p=3693 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:43:55,229 p=3693 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:46:20,792 p=3964 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:46:20,799 p=3964 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:46:22,219 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:22,347 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:22,364 p=3964 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:46:24,061 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:24,082 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:24,086 p=3964 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:46:24,711 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:24,769 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:24,774 p=3964 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:46:24,791 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info.exists": "VARIABLE IS NOT DEFINED!"
+}
+2025-08-07 16:46:24,799 p=3964 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info.exists": "VARIABLE IS NOT DEFINED!"
+}
+2025-08-07 16:46:24,824 p=3964 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:46:24,825 p=3964 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:46:24,825 p=3964 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:46:42,542 p=4122 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:46:42,548 p=4122 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:46:43,781 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:43,812 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:43,828 p=4122 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:46:45,527 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:45,588 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:45,592 p=4122 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:46:46,242 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:46:46,256 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:46:46,260 p=4122 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:46:46,279 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info": {
+        "changed": false,
+        "failed": false,
+        "stat": {
+            "atime": 1754584652.7380621,
+            "attr_flags": "",
+            "attributes": [],
+            "block_size": 4096,
+            "blocks": 298088,
+            "charset": "binary",
+            "checksum": "43c0c30592fb9453a8289f0c6c0a5ec10162ee65",
+            "ctime": 1754584653.366069,
+            "dev": 66305,
+            "device_type": 0,
+            "executable": false,
+            "exists": true,
+            "gid": 0,
+            "gr_name": "root",
+            "inode": 12590070,
+            "isblk": false,
+            "ischr": false,
+            "isdir": false,
+            "isfifo": false,
+            "isgid": false,
+            "islnk": false,
+            "isreg": true,
+            "issock": false,
+            "isuid": false,
+            "mimetype": "application/x-xz",
+            "mode": "0644",
+            "mtime": 1754584653.166067,
+            "nlink": 1,
+            "path": "/tmp/linux-6.16.tar.xz",
+            "pw_name": "root",
+            "readable": true,
+            "rgrp": true,
+            "roth": true,
+            "rusr": true,
+            "size": 152620004,
+            "uid": 0,
+            "version": "1400324669",
+            "wgrp": false,
+            "woth": false,
+            "writeable": true,
+            "wusr": true,
+            "xgrp": false,
+            "xoth": false,
+            "xusr": false
+        }
+    }
+}
+2025-08-07 16:46:46,289 p=4122 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info": {
+        "changed": false,
+        "failed": false,
+        "stat": {
+            "atime": 1754584653.3795853,
+            "attr_flags": "e",
+            "attributes": [
+                "extents"
+            ],
+            "block_size": 4096,
+            "blocks": 298096,
+            "charset": "binary",
+            "checksum": "43c0c30592fb9453a8289f0c6c0a5ec10162ee65",
+            "ctime": 1754584653.3785853,
+            "dev": 66305,
+            "device_type": 0,
+            "executable": false,
+            "exists": true,
+            "gid": 0,
+            "gr_name": "root",
+            "inode": 258446,
+            "isblk": false,
+            "ischr": false,
+            "isdir": false,
+            "isfifo": false,
+            "isgid": false,
+            "islnk": false,
+            "isreg": true,
+            "issock": false,
+            "isuid": false,
+            "mimetype": "application/x-xz",
+            "mode": "0644",
+            "mtime": 1754584653.1755848,
+            "nlink": 1,
+            "path": "/tmp/linux-6.16.tar.xz",
+            "pw_name": "root",
+            "readable": true,
+            "rgrp": true,
+            "roth": true,
+            "rusr": true,
+            "size": 152620004,
+            "uid": 0,
+            "version": "1675588797",
+            "wgrp": false,
+            "woth": false,
+            "writeable": true,
+            "wusr": true,
+            "xgrp": false,
+            "xoth": false,
+            "xusr": false
+        }
+    }
+}
+2025-08-07 16:46:46,313 p=4122 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:46:46,313 p=4122 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:46:46,314 p=4122 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:47:15,589 p=4231 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:47:15,595 p=4231 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:47:16,794 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:47:16,845 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:47:16,861 p=4231 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:47:18,557 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:47:18,748 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:47:18,751 p=4231 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:47:19,383 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:47:19,441 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:47:19,445 p=4231 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:47:19,462 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:47:19,472 p=4231 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:47:19,497 p=4231 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:47:19,497 p=4231 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:47:19,497 p=4231 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:53:06,832 p=4460 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:53:06,838 p=4460 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:53:08,277 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:53:09,528 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:53:09,547 p=4460 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:53:11,173 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:53:11,298 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:53:11,301 p=4460 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:53:11,946 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:53:11,994 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:53:11,998 p=4460 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:53:12,015 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:53:12,027 p=4460 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:53:12,032 p=4460 u=ubuntu n=ansible | TASK [unarchive Package] **********************************************************************************
+2025-08-07 16:53:12,047 p=4460 u=ubuntu n=ansible | skipping: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:53:12,054 p=4460 u=ubuntu n=ansible | skipping: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:53:12,079 p=4460 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:53:12,079 p=4460 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2025-08-07 16:53:12,079 p=4460 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=4    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2025-08-07 16:54:34,854 p=4663 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:54:34,861 p=4663 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:54:36,441 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:54:37,307 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:54:37,324 p=4663 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:54:39,007 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:54:39,052 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:54:39,056 p=4663 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:54:39,718 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:54:39,764 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:54:39,767 p=4663 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:54:39,788 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:54:39,798 p=4663 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:54:39,802 p=4663 u=ubuntu n=ansible | TASK [unarchive Package] **********************************************************************************
+2025-08-07 16:54:39,881 p=4663 u=ubuntu n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2025-08-07 16:54:39,882 p=4663 u=ubuntu n=ansible | fatal: [ip-192-168-1-96.ec2.internal]: FAILED! => {"changed": false, "msg": "Could not find or access '/tmp/linux-6.16.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2025-08-07 16:54:39,882 p=4663 u=ubuntu n=ansible | ...ignoring
+2025-08-07 16:54:39,888 p=4663 u=ubuntu n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2025-08-07 16:54:39,888 p=4663 u=ubuntu n=ansible | fatal: [ip-192-168-1-124.ec2.internal]: FAILED! => {"changed": false, "msg": "Could not find or access '/tmp/linux-6.16.tar.xz' on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2025-08-07 16:54:39,890 p=4663 u=ubuntu n=ansible | ...ignoring
+2025-08-07 16:54:39,914 p=4663 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:54:39,914 p=4663 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-08-07 16:54:39,914 p=4663 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2025-08-07 16:58:19,677 p=4854 u=ubuntu n=ansible | PLAY [all] ************************************************************************************************
+2025-08-07 16:58:19,683 p=4854 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 16:58:21,114 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:58:21,252 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:58:21,269 p=4854 u=ubuntu n=ansible | TASK [Download Package] ***********************************************************************************
+2025-08-07 16:58:22,893 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:58:23,045 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:58:23,049 p=4854 u=ubuntu n=ansible | TASK [Check if file exists] *******************************************************************************
+2025-08-07 16:58:23,682 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:58:23,727 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:58:23,732 p=4854 u=ubuntu n=ansible | TASK [Display file_info] **********************************************************************************
+2025-08-07 16:58:23,748 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:58:23,759 p=4854 u=ubuntu n=ansible | ok: [ip-192-168-1-96.ec2.internal] => {
+    "file_info.stat.exists": true
+}
+2025-08-07 16:58:23,763 p=4854 u=ubuntu n=ansible | TASK [unarchive Package] **********************************************************************************
+2025-08-07 16:59:20,155 p=4854 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-07 16:59:22,876 p=4854 u=ubuntu n=ansible | changed: [ip-192-168-1-96.ec2.internal]
+2025-08-07 16:59:22,901 p=4854 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 16:59:22,902 p=4854 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 16:59:22,902 p=4854 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 17:08:34,773 p=5427 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+  - name: Create Ec2 Instance
+    ^ here
+
+2025-08-07 17:09:31,930 p=5478 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 5, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Create Ec2 Instance
+    ^ here
+
+2025-08-07 17:10:36,467 p=5531 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 5, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:11:29,601 p=5603 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:11:43,172 p=5653 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:13:40,880 p=5712 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:13:45,003 p=5733 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:18:01,213 p=5782 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:19:12,691 p=5826 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create Ec2 Instance
+      ^ here
+
+2025-08-07 17:21:42,446 p=5941 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:23:01,269 p=5994 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:24:32,899 p=6036 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:25:22,320 p=6074 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:25:47,169 p=6127 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:29:39,916 p=6187 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 5, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Create Ec2 Instane
+      ^ here
+
+2025-08-07 17:30:33,891 p=6234 u=ubuntu n=ansible | Starting galaxy collection install process
+2025-08-07 17:30:33,891 p=6234 u=ubuntu n=ansible | Process install dependency map
+2025-08-07 17:30:33,891 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:33,992 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:34,092 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:34,192 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:34,293 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:34,393 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:34,493 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:34,594 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:34,695 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:34,796 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:34,896 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:34,996 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:35,097 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:35,197 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:35,297 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:35,398 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:35,498 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:35,599 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:35,699 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:35,799 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:35,900 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:36,000 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:36,100 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:36,201 p=6234 u=ubuntu n=ansible | Starting collection install process
+2025-08-07 17:30:36,201 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:36,205 p=6234 u=ubuntu n=ansible | Downloading https://galaxy.ansible.com/api/v3/plugin/ansible/content/published/collections/artifacts/amazon-aws-6.4.0.tar.gz to /home/ubuntu/.ansible/tmp/ansible-local-62345qql0tit/tmpximf1ih6/amazon-aws-6.4.0-uykktcab
+2025-08-07 17:30:36,301 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:36,402 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:36,502 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:36,603 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:36,703 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:36,803 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:36,904 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:37,004 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:37,105 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:37,205 p=6234 u=ubuntu n=ansible | Installing 'amazon.aws:6.4.0' to '/home/ubuntu/.ansible/collections/ansible_collections/amazon/aws'
+2025-08-07 17:30:37,205 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:37,305 p=6234 u=ubuntu n=ansible | \
+2025-08-07 17:30:37,406 p=6234 u=ubuntu n=ansible | |
+2025-08-07 17:30:37,506 p=6234 u=ubuntu n=ansible | /
+2025-08-07 17:30:37,607 p=6234 u=ubuntu n=ansible | -
+2025-08-07 17:30:37,707 p=6234 u=ubuntu n=ansible | amazon.aws:6.4.0 was installed successfully
+2025-08-07 17:30:43,365 p=6287 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 5, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Create Ec2 Instane
+      ^ here
+
+2025-08-07 17:32:03,365 p=6321 u=ubuntu n=ansible | # /home/ubuntu/.ansible/collections/ansible_collections
+Collection Version
+---------- -------
+
+2025-08-07 17:32:03,365 p=6321 u=ubuntu n=ansible | amazon.aws 6.4.0  
+2025-08-07 17:32:35,653 p=6379 u=ubuntu n=ansible | PLAY [Launch EC2 Instance] ********************************************************************************
+2025-08-07 17:32:35,661 p=6379 u=ubuntu n=ansible | TASK [Create EC2 Instance] ********************************************************************************
+2025-08-07 17:32:54,638 p=6379 u=ubuntu n=ansible | changed: [localhost]
+2025-08-07 17:32:54,642 p=6379 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 17:32:54,642 p=6379 u=ubuntu n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 17:36:44,402 p=6533 u=ubuntu n=ansible | ERROR! couldn't resolve module/action 'ec2_instance'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ubuntu/ansible-dev/awsservice.yaml': line 8, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Create EC2 Instance
+      ^ here
+
+2025-08-07 17:37:07,814 p=6596 u=ubuntu n=ansible | PLAY [Launch EC2 Instance] ********************************************************************************
+2025-08-07 17:37:07,821 p=6596 u=ubuntu n=ansible | TASK [Create EC2 Instance] ********************************************************************************
+2025-08-07 17:37:39,957 p=6596 u=ubuntu n=ansible | changed: [localhost]
+2025-08-07 17:37:39,961 p=6596 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 17:37:39,961 p=6596 u=ubuntu n=ansible | localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 17:38:58,321 p=6738 u=ubuntu n=ansible | PLAY [Launch EC2 Instance] ********************************************************************************
+2025-08-07 17:38:58,352 p=6738 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 17:38:59,377 p=6738 u=ubuntu n=ansible | ok: [localhost]
+2025-08-07 17:38:59,392 p=6738 u=ubuntu n=ansible | TASK [Create EC2 Instance] ********************************************************************************
+2025-08-07 17:39:17,554 p=6738 u=ubuntu n=ansible | changed: [localhost]
+2025-08-07 17:39:17,572 p=6738 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 17:39:17,572 p=6738 u=ubuntu n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 17:39:46,515 p=6962 u=ubuntu n=ansible | PLAY [Launch EC2 Instance] ********************************************************************************
+2025-08-07 17:39:46,545 p=6962 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 17:39:47,533 p=6962 u=ubuntu n=ansible | ok: [localhost]
+2025-08-07 17:39:47,548 p=6962 u=ubuntu n=ansible | TASK [Create EC2 Instance] ********************************************************************************
+2025-08-07 17:40:34,911 p=6962 u=ubuntu n=ansible | changed: [localhost]
+2025-08-07 17:40:34,928 p=6962 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 17:40:34,928 p=6962 u=ubuntu n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 18:16:10,403 p=7312 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 18:16:10,523 p=7312 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 18:16:29,756 p=7312 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Data could not be sent to remote host \"44.202.64.75\". Make sure this host can be reached over ssh: ssh: connect to host 44.202.64.75 port 22: Connection timed out\r\n",
+    "unreachable": true
+}
+2025-08-07 18:20:52,570 p=7606 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Data could not be sent to remote host \"44.202.64.75\". Make sure this host can be reached over ssh: ssh: connect to host 44.202.64.75 port 22: Connection timed out\r\n",
+    "unreachable": true
+}
+2025-08-07 18:24:35,477 p=7766 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:26:02,631 p=7816 u=ubuntu n=ansible | 44.202.64.75 | FAILED! => {
+    "msg": "The module win_ping was redirected to ansible.windows.win_ping, which could not be loaded."
+}
+2025-08-07 18:27:16,518 p=7877 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:27:54,549 p=7931 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:28:45,061 p=7985 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:29:08,218 p=8046 u=ubuntu n=ansible | 44.202.64.75 | FAILED! => {
+    "msg": "The module win_ping was redirected to ansible.windows.win_ping, which could not be loaded."
+}
+2025-08-07 18:30:12,762 p=8097 u=ubuntu n=ansible | Starting galaxy collection install process
+2025-08-07 18:30:12,767 p=8097 u=ubuntu n=ansible | Process install dependency map
+2025-08-07 18:30:12,768 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:12,868 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:12,968 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:13,069 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:13,169 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:13,269 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:13,370 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:13,471 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:13,571 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:13,672 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:13,772 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:13,873 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:13,973 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:14,074 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:14,174 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:14,278 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:14,378 p=8097 u=ubuntu n=ansible | Starting collection install process
+2025-08-07 18:30:14,378 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:14,385 p=8097 u=ubuntu n=ansible | Downloading https://galaxy.ansible.com/api/v3/plugin/ansible/content/published/collections/artifacts/ansible-windows-3.2.0.tar.gz to /home/ubuntu/.ansible/tmp/ansible-local-8097pmpdrvre/tmpt_aq7tgf/ansible-windows-3.2.0-i01r7oh6
+2025-08-07 18:30:14,479 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:14,579 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:14,680 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:14,780 p=8097 u=ubuntu n=ansible | |
+2025-08-07 18:30:14,881 p=8097 u=ubuntu n=ansible | Installing 'ansible.windows:3.2.0' to '/home/ubuntu/.ansible/collections/ansible_collections/ansible/windows'
+2025-08-07 18:30:14,881 p=8097 u=ubuntu n=ansible | /
+2025-08-07 18:30:14,982 p=8097 u=ubuntu n=ansible | -
+2025-08-07 18:30:15,082 p=8097 u=ubuntu n=ansible | \
+2025-08-07 18:30:15,183 p=8097 u=ubuntu n=ansible | ansible.windows:3.2.0 was installed successfully
+2025-08-07 18:30:19,109 p=8147 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:30:32,578 p=8222 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:31:46,776 p=8276 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:32:20,040 p=8343 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:33:31,274 p=8382 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:36:17,747 p=8491 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect password: Permission denied, please try again.",
+    "unreachable": true
+}
+2025-08-07 18:36:51,161 p=8536 u=ubuntu n=ansible | 44.202.64.75 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 18:37:13,118 p=8613 u=ubuntu n=ansible | 44.202.64.75 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-07 19:02:07,688 p=9113 u=ubuntu n=ansible | PLAY [wind] ***********************************************************************************************
+2025-08-07 19:02:07,695 p=9113 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 19:02:12,764 p=9113 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:02:12,769 p=9113 u=ubuntu n=ansible | TASK [Create folder] **************************************************************************************
+2025-08-07 19:02:14,186 p=9113 u=ubuntu n=ansible | changed: [44.202.64.75]
+2025-08-07 19:02:14,188 p=9113 u=ubuntu n=ansible | TASK [Download a Package] *********************************************************************************
+2025-08-07 19:02:19,124 p=9113 u=ubuntu n=ansible | changed: [44.202.64.75]
+2025-08-07 19:02:19,126 p=9113 u=ubuntu n=ansible | TASK [Install IIS] ****************************************************************************************
+2025-08-07 19:03:55,765 p=9113 u=ubuntu n=ansible | changed: [44.202.64.75]
+2025-08-07 19:03:55,767 p=9113 u=ubuntu n=ansible | TASK [Ensure IIS is running] ******************************************************************************
+2025-08-07 19:03:58,211 p=9113 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:03:58,217 p=9113 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 19:03:58,217 p=9113 u=ubuntu n=ansible | 44.202.64.75               : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-07 19:17:38,932 p=9480 u=ubuntu n=ansible | PLAY [wind] ***********************************************************************************************
+2025-08-07 19:17:38,939 p=9480 u=ubuntu n=ansible | TASK [Gathering Facts] ************************************************************************************
+2025-08-07 19:17:42,273 p=9480 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:17:42,278 p=9480 u=ubuntu n=ansible | TASK [Create folder] **************************************************************************************
+2025-08-07 19:17:43,628 p=9480 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:17:43,631 p=9480 u=ubuntu n=ansible | TASK [Download a Package] *********************************************************************************
+2025-08-07 19:17:47,789 p=9480 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:17:47,792 p=9480 u=ubuntu n=ansible | TASK [Install IIS] ****************************************************************************************
+2025-08-07 19:17:49,308 p=9480 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:17:49,310 p=9480 u=ubuntu n=ansible | TASK [Ensure IIS is running] ******************************************************************************
+2025-08-07 19:17:51,878 p=9480 u=ubuntu n=ansible | ok: [44.202.64.75]
+2025-08-07 19:17:51,885 p=9480 u=ubuntu n=ansible | TASK [Copy index file to windows Server] ******************************************************************
+2025-08-07 19:17:55,332 p=9480 u=ubuntu n=ansible | changed: [44.202.64.75]
+2025-08-07 19:17:55,338 p=9480 u=ubuntu n=ansible | PLAY RECAP ************************************************************************************************
+2025-08-07 19:17:55,338 p=9480 u=ubuntu n=ansible | 44.202.64.75               : ok=6    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-08-09 01:16:06,594 p=1771 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-09 01:16:07,226 p=1771 u=ubuntu n=ansible | ip-192-168-1-96.ec2.internal | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2025-08-09 01:16:25,956 p=1771 u=ubuntu n=ansible | 44.202.64.75 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Data could not be sent to remote host \"44.202.64.75\". Make sure this host can be reached over ssh: ssh: connect to host 44.202.64.75 port 22: Connection timed out\r\n",
+    "unreachable": true
+}
+2025-08-09 01:38:17,853 p=2552 u=ubuntu n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/ubuntu/ansible-dev/apache.yaml': line 15, column 16, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        state: directory
+        path: {{ item }}
+               ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2025-08-09 01:41:56,608 p=2656 u=ubuntu n=ansible | playbook: apache.yaml
+2025-08-09 01:42:17,909 p=2699 u=ubuntu n=ansible | PLAY [ws] **************************************************************************************************************************************************************
+2025-08-09 01:42:17,917 p=2699 u=ubuntu n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************
+2025-08-09 01:42:19,459 p=2699 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:42:19,469 p=2699 u=ubuntu n=ansible | TASK [update system] ***************************************************************************************************************************************************
+2025-08-09 01:42:22,252 p=2699 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:42:22,256 p=2699 u=ubuntu n=ansible | TASK [Create folders for app] ******************************************************************************************************************************************
+2025-08-09 01:42:22,271 p=2699 u=ubuntu n=ansible | fatal: [ip-192-168-1-124.ec2.internal]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'items' is undefined. 'items' is undefined\n\nThe error appears to be in '/home/ubuntu/ansible-dev/apache.yaml': line 12, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n        state: latest\n    - name: Create folders for app\n      ^ here\n"}
+2025-08-09 01:42:22,271 p=2699 u=ubuntu n=ansible | PLAY RECAP *************************************************************************************************************************************************************
+2025-08-09 01:42:22,271 p=2699 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-09 01:42:37,802 p=2796 u=ubuntu n=ansible | PLAY [ws] **************************************************************************************************************************************************************
+2025-08-09 01:42:37,807 p=2796 u=ubuntu n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************
+2025-08-09 01:42:38,998 p=2796 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:42:39,007 p=2796 u=ubuntu n=ansible | TASK [update system] ***************************************************************************************************************************************************
+2025-08-09 01:42:41,620 p=2796 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:42:41,624 p=2796 u=ubuntu n=ansible | TASK [Create folders for app] ******************************************************************************************************************************************
+2025-08-09 01:42:42,106 p=2796 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app)
+2025-08-09 01:42:42,448 p=2796 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app/logs)
+2025-08-09 01:42:42,789 p=2796 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app/deploy)
+2025-08-09 01:42:42,796 p=2796 u=ubuntu n=ansible | TASK [Install apache] **************************************************************************************************************************************************
+2025-08-09 01:42:43,223 p=2796 u=ubuntu n=ansible | fatal: [ip-192-168-1-124.ec2.internal]: FAILED! => {"changed": false, "msg": "value of state must be one of: absent, installed, latest, present, removed, got: presnet"}
+2025-08-09 01:42:43,224 p=2796 u=ubuntu n=ansible | PLAY RECAP *************************************************************************************************************************************************************
+2025-08-09 01:42:43,224 p=2796 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-08-09 01:44:56,545 p=2931 u=ubuntu n=ansible | PLAY [ws] **************************************************************************************************************************************************************
+2025-08-09 01:44:56,553 p=2931 u=ubuntu n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************
+2025-08-09 01:44:57,937 p=2931 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:44:57,946 p=2931 u=ubuntu n=ansible | TASK [update system] ***************************************************************************************************************************************************
+2025-08-09 01:45:00,620 p=2931 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:45:00,624 p=2931 u=ubuntu n=ansible | TASK [Create folders for app] ******************************************************************************************************************************************
+2025-08-09 01:45:01,109 p=2931 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app)
+2025-08-09 01:45:01,464 p=2931 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app/logs)
+2025-08-09 01:45:01,902 p=2931 u=ubuntu n=ansible | ok: [ip-192-168-1-124.ec2.internal] => (item=/opt/utc-app/deploy)
+2025-08-09 01:45:01,907 p=2931 u=ubuntu n=ansible | TASK [Install apache] **************************************************************************************************************************************************
+2025-08-09 01:45:06,766 p=2931 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:45:06,771 p=2931 u=ubuntu n=ansible | TASK [Service start daemon] ********************************************************************************************************************************************
+2025-08-09 01:45:07,763 p=2931 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:45:07,768 p=2931 u=ubuntu n=ansible | TASK [Copy index to Target] ********************************************************************************************************************************************
+2025-08-09 01:45:08,889 p=2931 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:45:08,900 p=2931 u=ubuntu n=ansible | RUNNING HANDLER [Restart apache] ***************************************************************************************************************************************
+2025-08-09 01:45:10,688 p=2931 u=ubuntu n=ansible | changed: [ip-192-168-1-124.ec2.internal]
+2025-08-09 01:45:10,695 p=2931 u=ubuntu n=ansible | PLAY RECAP *************************************************************************************************************************************************************
+2025-08-09 01:45:10,695 p=2931 u=ubuntu n=ansible | ip-192-168-1-124.ec2.internal : ok=7    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
